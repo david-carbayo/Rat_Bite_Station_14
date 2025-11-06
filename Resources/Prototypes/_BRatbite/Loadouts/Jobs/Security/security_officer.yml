@@ -22,3 +22,9 @@
   storage:
     back:
     - ShieldGunCaseBriefcase
+
+- type: loadout
+  id: LuckyRevolverWeaponCases
+  storage:
+    back:
+    - LuckyGunCaseBriefcase

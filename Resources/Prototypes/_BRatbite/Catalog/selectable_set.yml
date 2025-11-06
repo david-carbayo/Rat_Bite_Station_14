@@ -15,7 +15,6 @@
   description: selectable-set-security-EP12-description
   sprite:
     sprite: _BRatBites/Objects/Weapon/Battery/ep-12energypistol.rsi
-    state: base
     state: icon
   content:
     - EP12GunCaseBriefcase
@@ -39,3 +38,13 @@
     state: icon
   content:
     - MK58GunCaseBriefcase
+
+- type: selectableSet
+  id: SecLucktRSSet #RS = roundstart
+  name: selectable-set-security-lucky-name
+  description: selectable-set-security-lucky-description
+  sprite:
+    sprite: _BRatBites\Objects\Weapon\Pistol\lucky.rsi
+    state: icon
+  content:
+    - LuckyGunCaseBriefcase

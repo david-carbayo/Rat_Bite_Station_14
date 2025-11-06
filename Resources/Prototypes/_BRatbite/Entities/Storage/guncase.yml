@@ -19,7 +19,7 @@
   id: MK58GunCaseBriefcase
   parent: BaseGunCaseBriefcase
   name: MK-58 briefcase
-  description: Briefcase that hold MK-58 kit for security personal.
+  description: Briefcase that hold MK-58 Pistol kit for security personal.
   components:
   - type: StorageFill
     contents: 
@@ -31,7 +31,7 @@
   id: EP12GunCaseBriefcase
   parent: BaseGunCaseBriefcase
   name: EP-12 briefcase
-  description: Briefcase that hold EP-12 kit for security personal.
+  description: Briefcase that hold EP-12 Energy Pistol kit for security personal.
   components:
   - type: StorageFill
     contents: 
@@ -43,7 +43,7 @@
   id: PEW1GunCaseBriefcase
   parent: BaseGunCaseBriefcase
   name: PEW-1 briefcase
-  description: Briefcase that hold PEW-1 kit for security personal.
+  description: Briefcase that hold PEW-1 Energy Pistol kit for security personal.
   components:
   - type: StorageFill
     contents: 
@@ -61,3 +61,14 @@
     contents: 
       - id: SecurityEnergygShield
       
+- type: entity
+  id: LuckyGunCaseBriefcase
+  parent: BaseGunCaseBriefcase
+  name: Lucky Revolver briefcase
+  description: Briefcase that hold Lucky Revolver kit for security personal.
+  components:
+  - type: StorageFill
+    contents: 
+      - id: WeaponRevolverLuckySec
+      - id: SpeedLoader38Magnum
+      - id: SpeedLoader38Magnum

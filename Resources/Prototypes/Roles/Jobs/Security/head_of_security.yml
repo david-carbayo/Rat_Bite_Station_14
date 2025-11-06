@@ -181,9 +181,9 @@
     id: HoSPDA
     #gloves: ClothingHandsGlovesCombat - Goobstation, moved to loadouts
     ears: ClothingHeadsetAltSecurity
-    pocket1: WeaponPistolMk58
+    #pocket1: WeaponPistolMk58 #RatBite - more sidearm slop
   storage:
     back:
     - Flash
-    - MagazinePistol
+    #- MagazinePistol #RatBite - more sidearm slop
     - ClothingMaskGasSecurity # Goobstation

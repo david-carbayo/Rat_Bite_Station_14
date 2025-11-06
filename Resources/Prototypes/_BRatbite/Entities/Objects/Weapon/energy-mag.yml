@@ -28,7 +28,7 @@
   id: EnergyMagPistolLethal
   parent: [ EnergyPistolMagBase, BaseSecurityContraband ]
   name: energy pistol magazine (lethal)
-  description: Powercell with an attached power converter that create lethal bolt at the end of energy rifle.
+  description: Powercell with an attached power converter that create lethal bolt at the end of energy pistol.
   components:
   - type: Sprite
     layers:
@@ -44,7 +44,7 @@
   id: EnergyMagPistolDisabler
   parent: [ EnergyPistolMagBase, BaseSecurityContraband ]
   name: energy pistol magazine (disabler)
-  description: Powercell with an attached power converter that create disabler bolt at the end of energy rifle.
+  description: Powercell with an attached power converter that create disabler bolt at the end of energy pistol.
   components:
   - type: Sprite
     layers:
@@ -58,7 +58,7 @@
   id: EnergyMagPistolIon
   parent: [ EnergyPistolMagBase, BaseSecurityContraband ]
   name: energy pistol magazine (Ion)
-  description: Powercell with an attached power converter that create Ionize bolt at the end of energy rifle.
+  description: Powercell with an attached power converter that create Ionize bolt at the end of energy pistol.
   components:
   - type: Sprite
     layers:
@@ -74,7 +74,7 @@
   id: EnergyMagPistolOverchargeLethal
   parent: [ EnergyPistolMagBase, BaseSecurityContraband ]
   name: energy pistol magazine (overcharge)
-  description: The power converter on this magazine has been modified to shot even more powerfull bolt in exchanged of more power consumption.
+  description: Powercell with an attached power converter that create a bolt that set the target on fire.
   components:
   - type: Sprite
     layers:
