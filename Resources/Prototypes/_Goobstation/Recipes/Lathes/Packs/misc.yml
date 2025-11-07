@@ -63,3 +63,45 @@
   - PinpointerArtifact
   - PinpointerAnomaly
   - PinpointerBorg
+
+- type: latheRecipePack
+  id: DocumentPrinterForms
+  recipes:
+# Reports
+  - PrintedDocumentReportStationRecipe
+  - PrintedDocumentReportOnEliminationOfViolationsRecipe
+  - PrintedDocumentReporDepartmentRecipe
+  - PrintedDocumentReportEmployeePerformanceRecipe
+  - PrintedDocumentReportOnTheChaptersMeetingRecipe
+  - PrintedDocumentInternalAffairsAgentsReportRecipe
+  - PrintedDocumentConditionReportRecipe
+  - PrintedDocumentObjectInvestigationReportRecipe
+  - PrintedDocumentExperimentReportRecipe
+  - PrintedDocumentDisposalReportRecipe
+# Statements
+  - PrintedDocumentStatementAppointmentInterimChapterRecipe
+  - PrintedDocumentEmploymentStatementRecipe
+  - PrintedDocumentResignationStatementRecipe
+  - PrintedDocumentAccessRequestStatementRecipe
+  - PrintedDocumentEquipmentRequestStatementRecipe
+# InquiriesAndAppeals
+  - PrintedDocumentInvocationRecipe
+  - PrintedDocumentEvacuationShuttleRequestRecipe
+  - PrintedDocumentShuttleRegistrationRequestRecipe
+  - PrintedDocumentRequestCallCentCommMembersRecipe
+  - PrintedDocumentRequestRequestEstablishThreatLevelRecipe
+  - PrintedDocumentRequestForNonlistedEmploymentRecipe
+  - PrintedDocumentRequestForPromotionRecipe
+  - PrintedDocumentRequestDocumentsRecipe
+  - PrintedDocumentRequestEuthanasiaRecipe
+  - PrintedDocumentRequestConstructionWorkRecipe
+  - PrintedDocumentRequestModernizationRecipe
+# Complaintst
+  - PrintedDocumentComplaintViolationLaborRulesRecipe
+#  - type: EmagLatheRecipes
+#    emagStaticRecipes:
+#        - PrintedDocumentErrorLoadingFormHeaderRecipe
+#        - PrintedDocumentNoticeOfLiquidationRecipe
+#        - PrintedDocumentBusinessDealRecipe
+#        - PrintedDocumentNoteBeginningMilitaryActionsRecipe
+#        - PrintedDocumentReportAccomplishmentGoalsRecipe
