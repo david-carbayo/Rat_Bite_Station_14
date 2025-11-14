@@ -57,7 +57,7 @@ public sealed partial class AbductorSystem : SharedAbductorSystem
             _audioSystem.PlayPvs("/Audio/_Shitmed/Misc/alien_teleport.ogg", effect);
         }
 
-        var doAfter = new DoAfterArgs(EntityManager, ev.Performer, TimeSpan.FromSeconds(3), new AbductorReturnDoAfterEvent(), ev.Performer)
+        var doAfter = new DoAfterArgs(EntityManager, ev.Performer, TimeSpan.FromSeconds(10), new AbductorReturnDoAfterEvent(), ev.Performer)
         {
             MultiplyDelay = false,
         };

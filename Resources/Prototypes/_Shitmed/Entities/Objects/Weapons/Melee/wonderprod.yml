@@ -101,26 +101,7 @@
         - type: CuffsOnHit
           proto: Cablecuffs
 
-      sleep: !type:ItemSwitchState
-        verb: sleep
-        sprite:
-          sprite: _Shitmed/Objects/Weapons/Melee/wonderprod.rsi
-          state: sleep-icon
-        components:
-        - type: MeleeWeapon
-          wideAnimationRotation: -135
-          attackRate: 1
-          damage:
-            types:
-              Shock: 0
-          angle: 60
-          animation: WeaponArcThrust
-        - type: InjectOnHit
-          reagents:
-          - ReagentId: Nocturine
-            Quantity: 5
-          limit: 20
-          needsRestrain: true
+
 
       damage: !type:ItemSwitchState
         verb: damage
