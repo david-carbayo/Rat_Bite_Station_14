@@ -93,7 +93,7 @@
 - type: gameMap
   id: Loop
   mapName: 'Loop Station'
-  mapPath: /Maps/_Goobstation/loop.yml
+  mapPath: /Maps/_BRatbite/Ratbite_Supported/loop.yml
   minPlayers: 45
   maxPlayers: 75
   stations:
@@ -122,6 +122,7 @@
             Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 3, 3 ]
+            Reporter: [ 3, 3 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
             EngiSentry: [ 1, 1 ] #ratbite
