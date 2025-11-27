@@ -52,11 +52,11 @@
     sound:
       collection: LasersDrop
 
-- type: entity # I will just say this gun fucking sucks. holy shit.
+- type: entity # this is pure yaml slop fr -cr
   name: PEW-01 Personalize Energy Pistol
-  parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
+  parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
   id: WeaponEnergyGunLockedEnergyPistol
-  description: placeholder description please replace me boss.
+  description: Energy pistol with a identification pin that only allow mindshielded user to fire the pistol. Due to bad design of the gun the damage output is lower than regular energy pistol.
   components:
   - type: Sprite
     sprite: _BRatBites/Objects/Weapon/Battery/pew-1energypistol.rsi
@@ -127,3 +127,12 @@
     locked: true
   - type: AccessReader
     access: [ [ "Security" ] ]
+  - type: EmitSoundOnPickup
+    sound:
+      collection: LasersPickUp
+  - type: EmitSoundOnDrop
+    sound:
+      collection: LasersDrop
+  - type: EmitSoundOnLand
+    sound:
+      collection: LasersDrop
