@@ -557,5 +557,11 @@ public sealed partial class GoobCVars
         CVarDef.Create("shuttle.max_speed", 60f, CVar.SERVERONLY);
 
 
+    /// <summary>
+    /// A multiplier for bloodloss damage and heal.
+    /// </summary>
+    public static readonly CVarDef<float> BleedMultiplier =
+        CVarDef.Create("medical.bloodloss_multiplier", 4.0f, CVar.SERVER);
+
     #endregion
 }

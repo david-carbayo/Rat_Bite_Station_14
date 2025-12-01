@@ -288,6 +288,25 @@ public sealed partial class HisGraceSystem : SharedHisGraceSystem
         HandleGroundAttacks(hisGrace, melee, xform);
         ProcessHungerTick(hisGrace, user);
 
+        // do healing
+        _damageable.TryChangeDamage(user,
+            hisGrace.Comp.Healing,
+            true,
+            false,
+            targetPart: TargetBodyPart.All,
+            splitDamage: SplitDamageBehavior.SplitEnsureAll,
+            ignoreBlockers: true);
+
+        // revive if dead
+        if (_state.IsDead(user)
+            && _threshold.TryGetDeadThreshold(user, out var deadThreshold)
+            && TryComp<DamageableComponent>(user, out var damageable)
+            && _threshold.CheckVitalDamage(user, damageable) < deadThreshold
+            && hisGrace.Comp.IsHeld)
+        {
+            _state.ChangeMobState(user, MobState.Critical);
+        }
+
         hisGrace.Comp.NextTick = _timing.CurTime + hisGrace.Comp.TickDelay;
     }
 
