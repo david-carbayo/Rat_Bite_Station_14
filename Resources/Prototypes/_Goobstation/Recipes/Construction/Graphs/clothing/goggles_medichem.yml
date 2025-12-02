@@ -1,0 +1,52 @@
+# SPDX-FileCopyrightText: 2024 Flareguy <78941145+Flareguy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 gus <august.eymann@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: constructionGraph
+  id: GogglesMedChem
+  graph:
+    - node: start
+      edges:
+        - to: gogglesMedChem
+          steps:
+            - tag: HudMedical
+              name: construction-graph-tag-medical-hud
+              icon:
+                sprite: Clothing/Eyes/Hud/med.rsi
+                state: icon
+              doAfter: 5
+            - material: ClothingEyesGlassesChemical
+              amount: 1
+              icon:
+                sprite: Clothing/Eyes/Glasses/science.rsi
+                state: icon
+              doAfter: 5
+            - material: Cable
+              amount: 5
+              doAfter: 5
+            - tag: Radio
+              name: construction-graph-tag-radio
+              icon:
+                sprite: Objects/Devices/communication.rsi
+                state: walkietalkie
+              doAfter: 5
+            - material: Manipulator
+              amount: 2
+              doAfter: 5
+
+    - node: glassesMed
+      entity: ClothingEyesGlassesMed
+      edges:
+      - to: start
+        steps:
+        - tool: Screwing
+          doAfter: 5
+        completed:
+        - !type:SpawnPrototype
+          prototype: ClothingEyesGlassesChemical
+        - !type:SpawnPrototype
+          prototype: ClothingEyesHudMedical
+        - !type:DeleteEntity
