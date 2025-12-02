@@ -16,13 +16,13 @@
             - tag: HudMedical
               name: construction-graph-tag-medical-hud
               icon:
-                sprite: Clothing/Eyes/Glasses/science.rsi
+                sprite: Clothing/Eyes/Hud/med.rsi
                 state: icon
               doAfter: 5
             - tag: HudChemistry
               name: construction-graph-tag-chem-hud
               icon:
-                sprite: Clothing/Eyes/Hud/med.rsi
+                sprite: Clothing/Eyes/Glasses/science.rsi
                 state: icon
               doAfter: 5
             - material: Cable
