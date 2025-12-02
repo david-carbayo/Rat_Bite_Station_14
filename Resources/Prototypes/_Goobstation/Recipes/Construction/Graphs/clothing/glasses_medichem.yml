@@ -6,7 +6,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: constructionGraph
-  id: GlassesMedChem
+  id: GlassesMedChemHUD
+  start: start
   graph:
     - node: start
       edges:
@@ -18,8 +19,8 @@
                 sprite: Clothing/Eyes/Glasses/sunglasses.rsi
                 state: icon
               doAfter: 5
-            - material: ClothingEyesGlassesMedChem
-              amount: 1
+            - tag: HudMedichem
+              name: construction-graph-tag-medichem-hud
               icon:
                 sprite: _Goobstation/Clothing/Eyes/Glasses/medichem.rsi
                 state: icon
@@ -28,8 +29,8 @@
               amount: 5
               doAfter: 5
 
-    - node: glassesMed
-      entity: ClothingEyesGlassesMed
+    - node: glassesMedChem
+      entity: ClothingEyesGlassesMedChemFlash
       edges:
       - to: start
         steps:

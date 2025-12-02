@@ -120,6 +120,10 @@
   - type: Construction
     graph: GogglesMedChem
     node: gogglesMedChem
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - HudMedichem
 
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons, ClothingEyesGlassesSunglasses]
@@ -135,6 +139,9 @@
   - type: Construction
     graph: GlassesMedChem
     node: glassesMedChem
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: [ClothingEyesHudOmni, BaseCentcommContraband]
