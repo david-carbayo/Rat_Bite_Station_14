@@ -426,23 +426,24 @@
     - MagazineLightRifle
     - MagazineLightRifle
     - MagazineLightRifle
-    - WeaponPistolN1984
-    - MagazineMagnum
-    - MagazineMagnum
+
+    #Ratbite edit to make ert less busted
 
 - type: selectableSet
-  id: ERTPulseSet
+  id: ERTEnergySet
   name: selectable-set-ert-pulse-name
   description: selectable-set-ert-pulse-description
   sprite:
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
     state: icon
   content:
-    - WeaponPulseCarbineAdvanced
-    - WeaponEnergyRevolver
-    - EnergySpeedloaderPulse
-    - EnergySpeedloaderPulse
-    - EnergySpeedloaderDisabler
+    - WeaponLaserCellSMG
+    - PowerCellIRSMG
+    - PowerCellIRSMG
+    - PowerCellIRSMG
+    - PowerCellIRSMG
+
+    #Ratbite edit
 
 ## voidsuit selectors
 
