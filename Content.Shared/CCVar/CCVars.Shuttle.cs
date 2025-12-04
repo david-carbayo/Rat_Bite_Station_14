@@ -225,7 +225,7 @@ public sealed partial class CCVars
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<float> MinimumImpactVelocity =
-        CVarDef.Create("shuttle.impact.minimum_velocity", 15f, CVar.SERVERONLY); // needed so that random space debris can be rammed
+        CVarDef.Create("shuttle.impact.minimum_velocity", 1500f, CVar.SERVERONLY); // RatBiteStation change
 
     /// <summary>
     /// Multiplier of Kinetic energy required to dismantle a single tile in relation to its mass

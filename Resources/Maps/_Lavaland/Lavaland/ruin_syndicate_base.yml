@@ -7347,11 +7347,8 @@ entities:
           occludes: True
           ents:
           - 951
-          - 954
           - 950
           - 949
-          - 953
-          - 952
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True

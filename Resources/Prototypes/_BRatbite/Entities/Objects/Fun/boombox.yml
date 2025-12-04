@@ -5,7 +5,7 @@
   description: An old earth patent of a mobile jukebox.
   components:
   - type: Sprite
-    sprite: _BRatbite/Objects/Fun/mobilespeaker.rsi
+    sprite: _BRatBites/Objects/Fun/mobilespeaker.rsi
     state: icon
   - type: Jukebox
     onState: on
@@ -13,7 +13,7 @@
     selectState: select
   - type: Item
     size: Normal
-    sprite: Objects/Fun/moblilespeaker.rsi
+    sprite: _BRatBites/Objects/Fun/moblilespeaker.rsi
   - type: ActivatableUI
     key: enum.JukeboxUiKey.Key
   - type: UserInterface
