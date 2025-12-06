@@ -17,9 +17,9 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: MasterBotanist
-  - !type:SpeciesLoadoutEffect # Goobstation - EE Plasmeme Change.
-    species:
-    - Plasmaman
+  #- !type:SpeciesLoadoutEffect # Goobstation - EE Plasmeme Change. #Ratbite - Remove requirement to allow all pick up beret.
+  #  species:
+  #  - Plasmaman
   equipment:
     head: ClothingHeadHatBeretSeniorBotanist
 
