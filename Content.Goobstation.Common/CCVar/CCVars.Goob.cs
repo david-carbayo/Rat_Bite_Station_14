@@ -556,7 +556,6 @@ public sealed partial class GoobCVars
     public static readonly CVarDef<float> MaxShuttleSpeed =
         CVarDef.Create("shuttle.max_speed", 60f, CVar.SERVERONLY);
 
-
     /// <summary>
     /// A multiplier for bloodloss damage and heal.
     /// </summary>
