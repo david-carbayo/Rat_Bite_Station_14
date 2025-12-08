@@ -400,8 +400,8 @@
     - id: BiomassReclaimerFlatpack
     - id: Multitool
     - id: MedTekCartridge
-    - id: SyringeGun #Ratbite
-    - id: BoxSyringePax
+    - id: SyringeGun #Ratbite-No more advanced syringe
+#    - id: BoxSyringePax Ratbite-Make it yourself nerd
     - id: ClothingBeltMilitaryWebbingCMOFilled
     # Shitmed
     - id: MedicalBiofabricatorFlatpack
@@ -519,11 +519,11 @@
     - id: ClothingBeltSecurityFilled
     - id: ClothingEyesGlassesSecurity
     - id: ClothingHeadsetAltSecurity
-    - id: ClothingMaskNeckGaiter
-    - id: ClothingOuterCoatHoSTrench
-    - id: ClothingShoesBootsJack
+    #- id: ClothingMaskNeckGaiter Ratbite-Slop
+    #- id: ClothingOuterCoatHoSTrench Ratbite-Slop
+    #- id: ClothingShoesBootsJack Ratbite-Why not just add a jumpsuit too? Slop.
     - id: DoorRemoteSecurity
-    - id: HoloprojectorSecurity
+    #- id: HoloprojectorSecurity Ratbite-Slop
     - id: RubberStampHos
     - id: SecurityTechFabCircuitboard
     #- id: WeaponDisabler # Goobstation (Disablers in belts)
