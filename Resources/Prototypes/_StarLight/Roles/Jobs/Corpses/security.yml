@@ -8,14 +8,6 @@
     belt: ClothingBeltSecurityFilled
     pocket1: Handcuffs
 
-- type: startingGear
-  id: SecurityCadetCorpseGear
-  equipment:
-    jumpsuit: ClothingUniformSecurityTshirt
-    ears: ClothingHeadsetSecurity
-    shoes: ClothingShoesBootsJack
-    belt: ClothingBeltSecurity
-    outerClothing: ClothingOuterArmorBasic
 
 - type: startingGear
   id: SecurityOfficerCorpseGear
