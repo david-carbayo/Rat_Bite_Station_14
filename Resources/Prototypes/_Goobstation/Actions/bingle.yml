@@ -1,0 +1,27 @@
+- type: entity
+  parent: BaseAction
+  id: ActionBingleUpgrade
+  name: Upgrade
+  description: Upgrades bingle into a stronger version
+  components:
+  - type: Action
+    useDelay: 1
+    icon:
+      sprite: _Goobstation/Mobs/Bingle/bingle.rsi
+      state: Upgraded
+  - type: InstantAction
+    event: !type:BingleUpgradeActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionBingleSpawnPit
+  name: Spawn bingle pit
+  description: Spawns the bingle pit
+  components:
+  - type: Action
+    useDelay: 1
+    icon:
+      sprite: _Goobstation/Mobs/Bingle/bingle_pit.rsi
+      state: pit
+  - type: InstantAction
+    event: !type:BingleSpawnPitActionEvent
