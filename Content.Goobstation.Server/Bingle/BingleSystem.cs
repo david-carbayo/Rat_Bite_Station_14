@@ -72,7 +72,7 @@ public sealed class BingleSystem : EntitySystem
             component.MyPit = closestPit;
         }
 
-        UpdateCollisonMask(uid, component);
+        UpdateCollisionMask(uid, component);
     }
 
     // ran by the pit to upgrade bingle damage
@@ -116,6 +116,7 @@ public sealed class BingleSystem : EntitySystem
             return;
 
         var xform = Transform(uid);
+
         if (xform.GridUid == null)
         {
             _popup.PopupEntity(Loc.GetString("bingle-pit-spawn-location-invalid"), uid, uid);
@@ -127,10 +128,10 @@ public sealed class BingleSystem : EntitySystem
         component.Prime = false;
         component.MyPit = Spawn("BinglePit", xform.Coordinates);
 
-        UpdateCollisonMask(uid, component);
+        UpdateCollisionMask(uid, component);
     }
 
-    private void UpdateCollisonMask(EntityUid uid, BingleComponent component)
+    private void UpdateCollisionMask(EntityUid uid, BingleComponent component)
     {
         int mask;
         int layer;
