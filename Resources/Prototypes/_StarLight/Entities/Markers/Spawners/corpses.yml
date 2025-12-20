@@ -23,18 +23,6 @@
       - MobRandomNukieCorpse
 
 - type: entity
-  name: Random Soviet Corpse Spawner
-  id: RandomSovietCorpseSpawner
-  parent: SalvageHumanCorpseSpawner
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-  - type: ConditionalSpawner
-    prototypes:
-      - MobRandomSovietCorpse
-
-- type: entity
   name: Random Mercenary Corpse Spawner
   id: RandomMercenaryCorpseSpawner
   parent: SalvageHumanCorpseSpawner

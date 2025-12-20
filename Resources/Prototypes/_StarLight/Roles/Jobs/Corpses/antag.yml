@@ -16,13 +16,6 @@
     pocket2: Telecrystal1
 
 - type: startingGear
-  id: SovietCorpseGear
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSovietFatigues
-    shoes: ClothingShoesBootsCombat
-    pocket1: CigPackSoviet
-
-- type: startingGear
   id: MercenaryCorpseGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMercenary

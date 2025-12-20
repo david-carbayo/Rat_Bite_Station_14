@@ -41,8 +41,6 @@
   - type: Loadout
     prototypes:
     - CargoTechCorpseGear #SL Edit
-    - MailTechCorpseGear #SL Edit
-    - MinerCorpseGear #SL Edit
     - SalvageSpecialistCorpseGear #SL Edit
 
 - type: entity
@@ -99,11 +97,6 @@
     - CMOCorpseGear #SL Edit
     - ChiefEngineerCorpseGear #SL Edit
     - QuartermasterCorpseGear #SL Edit
-    - IAACorpseGear #SL Edit
-    - MagistrateCorpseGear #SL Edit
-    - NTRCorpseGear #SL Edit
-    - BSOCorpseGear #SL Edit
-    - NTMarineCorpseGear #SL Edit
 
 #Starlight Region Start (ANTAGS)
 

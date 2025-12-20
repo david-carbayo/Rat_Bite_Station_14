@@ -32,16 +32,6 @@
     pocket1: RadioHandheldExpedition
 
 - type: startingGear
-  id: MinerCorpseGear
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitMiningSpecialist
-    ears: ClothingHeadsetMining
-    shoes: ClothingShoesBootsSalvage
-    gloves: ClothingHandsGlovesFingerless
-    belt: OreBag
-    pocket1: RadioHandheldExpedition
-
-- type: startingGear
   id: QuartermasterCorpseGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitQM
