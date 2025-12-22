@@ -10,6 +10,16 @@
   content:
   - ClothingOuterHardsuitRSOGoliath
 
+- type: selectableSet
+  id: VoidsuitSelectorRSOMagistrate
+  name: selectable-set-rso-voidsuit-name
+  description: selectable-set-rso-voidsuit-desc
+  sprite:
+    sprite: _BRatBites/Clothing/OuterClothing/Hardsuit/rsovoidsuit.rsi
+    state: icon
+  content:
+  - ClothingOuterVoidsuitRSOmagistrate
+
 # RSO weapon selector
 
 - type: selectableSet

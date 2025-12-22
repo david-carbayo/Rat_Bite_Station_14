@@ -10,3 +10,4 @@
   - type: SetSelector
     possibleSets:
     - HardsuitSelectorRSOGoliath
+    - VoidsuitSelectorRSOMagistrate
