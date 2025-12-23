@@ -68,6 +68,7 @@
   name: guide-entry-sop-legal
   text: "/ServerInfo/_Goobstation/Guidebook/SoP/Legal/LegalSOP.xml"
   children:
+  - SpaceLaw
   - Execution SOP
   - PermaBrig SOP
   - Punishments SOP
