@@ -44,3 +44,14 @@
     - Arm
     modifiers:
         Heat: 0.4 # i heart copy and pasting floras shit! -eirin
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: RatvarRobes
+  name: Rat'Varian Robes
+  description: A robe made of a brass-like thread, and brass plating.
+  components:
+  - type: Sprite
+    sprite: _BRatBites\Clothing\OuterClothing\Robes\RatvarRobes.rsi
+  - type: Clothing
+    sprite: _BRatBites\Clothing\OuterClothing\Robes\RatvarRobes.rsi
