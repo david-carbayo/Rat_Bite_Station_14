@@ -112,6 +112,7 @@
     staticPacks:
     - ToolsStatic
     - ToolsStaticNoTiders
+    - PartsStatic
     - SharedBoardsStatic
     - CargoBoardsStatic
     - CablesStatic
