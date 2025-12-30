@@ -101,7 +101,7 @@
     contents:
       - id: CrowbarRed
       - id: RadioHandheld
-      #- id: WelderMini Tidedeth
+      - id: WelderMini Tidedeth
       - id: FireExtinguisherMini
       # Random lighting item orGroup
       - id: FlashlightLantern
