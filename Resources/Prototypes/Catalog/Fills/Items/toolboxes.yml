@@ -101,7 +101,7 @@
     contents:
       - id: CrowbarRed
       - id: RadioHandheld
-      - id: WelderMini
+      #- id: WelderMini Tidedeth
       - id: FireExtinguisherMini
       # Random lighting item orGroup
       - id: FlashlightLantern
@@ -189,7 +189,7 @@
     contents:
       - id: CrowbarOrange
       - id: Wrench
-      - id: Welder
+      #- id: Welder
       - id: Wirecutter
       - id: Screwdriver
         prob: 0.5
