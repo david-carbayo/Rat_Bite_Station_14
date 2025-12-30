@@ -796,7 +796,6 @@
       - TargetHuman
       - TargetSyndicate
       - TargetClown
-      - ToolsStaticNoTiders
     dynamicRecipes:
       - ShellShotgunBeanbag
       - ShellShotgunIncendiary
@@ -825,6 +824,7 @@
       - ClothingHeadHelmetInsulated # Nyanotrasen - Insulative headgear
       - ClothingHeadCage # Nyanotrasen - Insulative headgear
     staticPacks:
+    - ToolsStaticNoTiders
     - SecurityEquipmentStatic
     - SecurityPracticeStatic
     - SecurityAmmoStatic
