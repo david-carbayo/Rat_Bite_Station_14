@@ -46,6 +46,7 @@
     - EngineeringBoardsStatic
     - CircuitFloorsStatic
     - ToolsStatic
+    - ToolsStaticNoTiders
     - PartsStatic
     - AtmosStatic
     - CablesStatic
@@ -110,6 +111,7 @@
     runningState: icon
     staticPacks:
     - ToolsStatic
+    - ToolsStaticNoTiders
     - SharedBoardsStatic
     - CargoBoardsStatic
     - CablesStatic
@@ -177,6 +179,7 @@
     - MedicalBoardsStatic
     - MedicalBoardsStaticGoob
     - ToolsStatic
+    - ToolsStaticNoTiders
     - PartsStatic
     - AtmosStatic
     - CablesStatic

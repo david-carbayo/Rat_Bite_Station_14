@@ -415,7 +415,7 @@
     unlitIdleState: unlit
     unlitRunningState: unlit-building
     staticPacks:
-   #- ToolsStatic Ratbite tider death
+    - ToolsStatic
     - PartsStatic
     - AtmosStatic
     - CablesStatic
@@ -796,6 +796,7 @@
       - TargetHuman
       - TargetSyndicate
       - TargetClown
+      - ToolsStaticNoTiders
     dynamicRecipes:
       - ShellShotgunBeanbag
       - ShellShotgunIncendiary
