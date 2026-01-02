@@ -12,16 +12,16 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Shared._Starlight.CollectiveMind
 {
-    [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+    [RegisterComponent, NetworkedComponent]
     public sealed partial class CollectiveMindComponent : Component
     {
         [DataField("minds")]
         public Dictionary<string, int> Minds = new();
 
-        [DataField, AutoNetworkedField]
+        [DataField]
         public ProtoId<CollectiveMindPrototype>? DefaultChannel = null;
 
-        [DataField, AutoNetworkedField]
+        [DataField]
         public HashSet<ProtoId<CollectiveMindPrototype>> Channels = new();
 
         [DataField]
